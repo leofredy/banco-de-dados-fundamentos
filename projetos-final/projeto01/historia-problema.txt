@@ -1,0 +1,28 @@
+Com o aumento de sistemas informatizados hoje, qualquer empresa – seja de pequeno ou médio porte – é capaz de manter seu próprio sistema informatizado para tornar seu processo de trabalho mais rápido e automático. Com o objetivo de melhorar os processos de trabalho da loja DeTudo ltda, o projeto que você modelará deverá conter as seguintes funcionalidades:
+
+Manter o histórico de todas as vendas efetuadas pela loja e seus itens.
+Manter o histórico de todas as compras realizadas e seus itens.
+Gravar a comissão dos vendedores sobre cada venda.
+Gerenciar a quantidade de produtos em estoque.
+Manter o cadastro dos seguintes elementos: Clientes, Fornecedores, Funcionários, Vendedores, Produtos e Categoria de produtos.
+No banco, o modelador deve garantir que sejam armazenados os seguintes dados:
+
+1. Sobre os clientes:
+
+– pessoa física: nome, RG, CPF, endereço, e-mail e telefone;
+
+– em caso de pessoa jurídica: razão social, nome fantasia, CNPJ, endereço, e-mail e telefone.
+
+2. Sobre o produto: código, nome, descrição, unidade de medida, valor de compra, valor de venda, quantidade mínima e máxima em estoque e sua categoria. Da categoria: código, nome e a descrição. Da unidade de medida: código, sigla, descrição.
+
+3. Dos fornecedores: as mesmas informações que os clientes pessoa jurídica.
+
+4. Sobre os funcionários: nome, CPF, RG, endereço, e-mail, telefone e número carteira de trabalho.
+
+5. Os vendedores devem ter todas as informações dos funcionários, mais o valor da meta de venda mensal.
+
+6. Toda venda deve conter os seguintes dados: produtos vendidos, valor unitário de cada item, valor total de venda, quantidade de cada item, a data, o cliente que realizou a compra, o vendedor e a comissão daquela venda.
+
+7. Das compras não é muito diferente: produtos, a quantidade unitária de cada item, o valor de cada item, o valor total da compra e a data.
+
+8. O estoque deve ter apenas a quantidade de produto e o produto.
